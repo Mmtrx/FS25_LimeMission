@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--=====================================================================================================
+	FS22_LimeMission mission vehicles 
+	Purpose:    provide loan vehicles for ingame lime contracts 
+	Author:     Mmtrx       
+	Changelog:
+	v1.0.0.0    15.02.2025  initial port from FS22
+======================================================================================================-->
+<missionVehicles overwrite="false">
+	<variants/>
+ 
+	<mission type="limeMission">
+		<group size="small">
+			<vehicle filename="$data/vehicles/fendt/vario300/vario300.xml" > <!-- tractor -->
+				<configuration name="motor" id="4"/>
+				<configuration name="design" id="2"/>
+			</vehicle>
+			<vehicle filename="$data/vehicles/bredal/k105/k105.xml" > <!-- spreader -->
+				<configuration name="fillUnit" id="3"/>
+				<configuration name="cover" id="2"/>
+				<configuration name="fillVolume" id="3"/>
+			</vehicle>
+		</group>
+
+		<group size="small">
+			<vehicle filename="$data/vehicles/zetor/crystal/crystal.xml" /> <!-- tractor -->
+			<vehicle filename="$data/vehicles/bredal/k105/k105.xml" > <!-- spreader -->
+				<configuration name="fillUnit" id="3"/>
+				<configuration name="cover" id="2"/>
+				<configuration name="fillVolume" id="3"/>
+			</vehicle>
+		</group>
+
+		<group size="medium">
+			<vehicle filename="$data/vehicles/deutzFahr/series7/series7.xml"/>
+			<vehicle filename="$data/vehicles/bredal/k105/k105.xml" > <!-- spreader -->
+				<configuration name="fillUnit" id="3"/>
+				<configuration name="cover" id="2"/>
+				<configuration name="fillVolume" id="3"/>
+				<configuration name="folding" id="2"/>
+			</vehicle>
+		</group>
+
+		<group size="medium">
+			<vehicle filename="$data/vehicles/fendt/vario500/vario500.xml" >
+				<configuration name="motor" id="4"/>
+			</vehicle>
+			<vehicle filename="$data/vehicles/bredal/k105/k105.xml" > <!-- spreader -->
+				<configuration name="fillUnit" id="3"/>
+				<configuration name="cover" id="2"/>
+				<configuration name="fillVolume" id="3"/>
+				<configuration name="folding" id="2"/>
+			</vehicle>
+		</group>
+
+		<group size="medium">
+			<vehicle filename="$data/vehicles/deutzFahr/series6C/series6C.xml" />
+			<vehicle filename="$data/vehicles/tenwinkel/weight600/weight600.xml" />
+			<vehicle filename="$data/vehicles/bredal/k105/k105.xml" > <!-- spreader -->
+				<configuration name="fillUnit" id="3"/>
+				<configuration name="cover" id="2"/>
+				<configuration name="fillVolume" id="3"/>
+				<configuration name="folding" id="2"/>
+			</vehicle>
+		</group>
+
+		<group size="large">
+			<vehicle filename="$data/vehicles/newHolland/t8/t8.xml">
+				<configuration name="motor" id="3"/>
+			</vehicle>
+			<vehicle filename="$data/vehicles/tenwinkel/weight600/weight600.xml" />
+			<vehicle filename="$data/vehicles/bredal/k105/k105.xml" > <!-- spreader -->
+				<configuration name="fillUnit" id="3"/>
+				<configuration name="cover" id="2"/>
+				<configuration name="fillVolume" id="3"/>
+				<configuration name="folding" id="2"/>
+			</vehicle>
+		</group>
+
+		<group size="large">
+			<vehicle filename="$data/vehicles/johnDeere/series8R/series8R.xml"/>
+			<vehicle filename="$data/vehicles/tenwinkel/weight600/weight600.xml" />
+			<vehicle filename="$data/vehicles/bredal/k105/k105.xml" > <!-- spreader -->
+				<configuration name="fillUnit" id="3"/>
+				<configuration name="cover" id="2"/>
+				<configuration name="fillVolume" id="3"/>
+				<configuration name="folding" id="2"/>
+			</vehicle>
+		</group>
+
+		<group size="large">
+			<vehicle filename="$data/vehicles/johnDeere/series8R/series8R.xml"/> <!-- tractor big -->
+			<vehicle filename="$data/vehicles/deutzFahr/series6C/series6C.xml"/> <!-- tractor small -->
+			<vehicle filename="$data/vehicles/tenwinkel/weight600/weight600.xml" />
+			<vehicle filename="$data/vehicles/bredal/k105/k105.xml" > <!-- spreader -->
+				<configuration name="fillUnit" id="3"/>
+				<configuration name="cover" id="2"/>
+				<configuration name="fillVolume" id="3"/>
+				<configuration name="folding" id="2"/>
+			</vehicle>
+			<vehicle filename="$data/vehicles/bredal/k105/k105.xml" > <!-- spreader small -->
+				<configuration name="fillUnit" id="3"/>
+				<configuration name="cover" id="2"/>
+				<configuration name="fillVolume" id="3"/>
+			</vehicle>
+		</group>
+	</mission>
+</missionVehicles>

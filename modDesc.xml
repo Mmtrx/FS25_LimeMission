@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<modDesc descVersion="94">
+	<author>Mmtrx</author>
+	<version>1.0.0.0</version>
+	<title>
+		<en>Lime Contracts</en>
+		<de>Kalk-Aufträge</de>
+		<fr>Contrats De Chauler</fr>
+	</title>
+	<description>
+		<en>
+			<![CDATA[
+Implements field lime contracts
+
+]]>
+		</en>
+		<de>
+			<![CDATA[
+Erzeugt Aufträge zum Kalken von Feldern
+
+]]>
+		</de>
+		<fr>
+			<![CDATA[
+Les contrats de chauler des champs
+
+]]>
+		</fr>
+	</description>
+	<iconFilename>icon_LimeMission.dds</iconFilename>
+	<multiplayer supported="true" />
+	<extraSourceFiles>
+		<sourceFile filename="limeMission.lua" />
+	</extraSourceFiles>
+
+	<missionVehicles filename="missionVehicles/limeMissions.xml" />
+
+	<l10n>
+		<text name="contract_field_lime_title">
+			<en>Liming</en>
+			<de>Kalken</de>
+			<fr>Chauler</fr>
+		</text>
+		<text name="contract_field_lime_description">
+			<en>Spread lime on the field to adjust the pH for a better yield.</en>
+			<de>Kalke das Feld, um den pH-Wert zu verbessern und dadurch den Ertrag zu steigern.</de>
+			<fr>Chauler le champ pour améliorer le pH et ainsi augmenter le rendement.</fr>
+		</text>
+	</l10n>
+</modDesc>
