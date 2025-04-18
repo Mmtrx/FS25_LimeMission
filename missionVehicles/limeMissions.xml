@@ -5,6 +5,7 @@
 	Author:     Mmtrx       
 	Changelog:
 	v1.0.0.0    15.02.2025  initial port from FS22
+    v1.0.0.1    17.04.2025  add lime big bags (#7)
 ======================================================================================================-->
 <missionVehicles overwrite="false">
 	<variants/>
@@ -51,6 +52,9 @@
 				<configuration name="fillVolume" id="3"/>
 				<configuration name="folding" id="2"/>
 			</vehicle>
+			<vehicle filename="$data/objects/bigBag/lime/bigBag_lime.xml"/> 
+			<vehicle filename="$data/objects/bigBag/lime/bigBag_lime.xml"/> 
+			<vehicle filename="$data/objects/bigBag/lime/bigBag_lime.xml"/> 
 		</group>
 
 		<group size="medium">
@@ -75,6 +79,10 @@
 				<configuration name="fillVolume" id="3"/>
 				<configuration name="folding" id="2"/>
 			</vehicle>
+			<vehicle filename="$data/objects/bigBag/lime/bigBag_lime.xml"/> 
+			<vehicle filename="$data/objects/bigBag/lime/bigBag_lime.xml"/> 
+			<vehicle filename="$data/objects/bigBag/lime/bigBag_lime.xml"/> 
+			<vehicle filename="$data/objects/bigBag/lime/bigBag_lime.xml"/> 
 		</group>
 
 		<group size="large">
@@ -103,6 +111,14 @@
 				<configuration name="cover" id="2"/>
 				<configuration name="fillVolume" id="3"/>
 			</vehicle>
+			<vehicle filename="$data/objects/bigBag/lime/bigBag_lime.xml"/> 
+			<vehicle filename="$data/objects/bigBag/lime/bigBag_lime.xml"/> 
+			<vehicle filename="$data/objects/bigBag/lime/bigBag_lime.xml"/> 
+			<vehicle filename="$data/objects/bigBag/lime/bigBag_lime.xml"/> 
+			<vehicle filename="$data/objects/bigBag/lime/bigBag_lime.xml"/> 
+			<vehicle filename="$data/objects/bigBag/lime/bigBag_lime.xml"/> 
+			<vehicle filename="$data/objects/bigBag/lime/bigBag_lime.xml"/> 
+			<vehicle filename="$data/objects/bigBag/lime/bigBag_lime.xml"/> 
 		</group>
 	</mission>
 </missionVehicles>

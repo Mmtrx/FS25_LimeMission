@@ -1,17 +1,20 @@
-<?xml version="1.0" encoding="utf-8" standalone="no"?>
-<modDesc descVersion="94">
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<modDesc descVersion="97">
 	<author>Mmtrx</author>
-	<version>1.0.0.0</version>
+	<version>1.0.0.1</version>
 	<title>
 		<en>Lime Contracts</en>
 		<de>Kalk-Aufträge</de>
 		<fr>Contrats De Chauler</fr>
-		<cz>Zakázky na vápnění</cz>
 	</title>
 	<description>
 		<en>
 			<![CDATA[
 Implements field lime contracts
+
+Changelog 1.0.0.1
+- doubled reward/ha 
+- added cz, pl, ru translation
 
 ]]>
 		</en>
@@ -19,20 +22,20 @@ Implements field lime contracts
 			<![CDATA[
 Erzeugt Aufträge zum Kalken von Feldern
 
+Changelog 1.0.0.1
+- Lohn/ha verdoppelt
+- cz, pl, ru Übersetzung
 ]]>
 		</de>
 		<fr>
 			<![CDATA[
 Les contrats de chauler des champs
 
+Changelog 1.0.0.1
+- doublement de la récompense/ha 
+- ajout de la traduction cz, pl, ru
 ]]>
 		</fr>
-		<cz>
-			<![CDATA[
-Implementuje zakázky na vápnění polí
-
-]]>
-		</cz>
 	</description>
 	<iconFilename>icon_LimeMission.dds</iconFilename>
 	<multiplayer supported="true" />
@@ -47,13 +50,17 @@ Implementuje zakázky na vápnění polí
 			<en>Liming</en>
 			<de>Kalken</de>
 			<fr>Chauler</fr>
+			<pl>Wapnowanie</pl>
 			<cz>Vápnění</cz>
+			<ru>Известкование</ru>
 		</text>
 		<text name="contract_field_lime_description">
 			<en>Spread lime on the field to adjust the pH for a better yield.</en>
 			<de>Kalke das Feld, um den pH-Wert zu verbessern und dadurch den Ertrag zu steigern.</de>
 			<fr>Chauler le champ pour améliorer le pH et ainsi augmenter le rendement.</fr>
+			<pl>Rozsyp wapno na polu, aby dostosować pH w celu uzyskania lepszych plonów.</pl>
 			<cz>Na pole aplikujte vápno, abyste upravili pH a dosáhli lepšího výnosu.</cz>
+			<ru>Распределите известь по полю, чтобы отрегулировать уровень рН и повысить урожайность.</ru>
 		</text>
 	</l10n>
 </modDesc>

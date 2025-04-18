@@ -5,15 +5,15 @@
 -- Author:      Mmtrx
 -- Changelog:
 --  v1.0.0.0    15.02.2025  initial port from FS22
---  v1.0.0.1    15.02.2025  console cmd limission
+--  v1.0.0.1    17.04.2025  console cmd limission, doubled reward (#7)
 --=======================================================================================================
 LimeMission = {
 	NAME = "limeMission",
-	REWARD_PER_HA = 1500,
+	REWARD_PER_HA = 3000,
 	REIMBURSEMENT_PER_HA = 2020, 
 	-- price for 1000 sec: 	Fert: .006 l/s * 1920 = 11520
 	-- 						Lime: .090 l/s *  225 = 20250
-	debug = true,
+	debug = false,
 }
 function debugPrint(text, ...)
 	if LimeMission.debug == true then
